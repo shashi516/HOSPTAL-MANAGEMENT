@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+}
+
+
+#inpl{
+    padding: 2%;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+ .main .sidebarWrapper{
+    width: 20%; 
+    flex: 0 0 15%;
+    transition: all .3s ease-in-out;
+ }
+ .main .sidebarWrapper .sidebar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    background:#d5e1df;
+    transition: transform 0.3s ease;
+    overflow-y:auto ;
+ }
+ .main .sidebarWrapper .sidebar ul{
+    margin-bottom: 0px;
+    margin-top: 80%;
+ }
+ .main .sidebarWrapper .sidebar ul li{
+    list-style: none;
+ }
+ .main .sidebarWrapper .sidebar ul li button{
+    color:black;
+    text-align: left;
+    justify-content: left;
+    border-radius: 0% !important;
+    padding: 12px 15px !important;
+    align-items: center;
+    border: 0px;
+    background: none;
+    display: flex;
+    
+ }
+ .main .sidebarWrapper .sidebar ul li button .icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+ }
+ .main .sidebarWrapper .sidebar ul li button .icon svg{
+    color: black;
+    opacity: .8;
+    font-size: 22px;
+ }
+ .main .sidebarWrapper .sidebar ul li button .arrow{
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+ }
+ .main .sidebarWrapper .sidebar ul li button:hover{
+    background-color: #36486b;
+    color: #d5e1df;
+ }
+
+ .hamburger-menu {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    background: #d5e1df;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+  }
+  .show {
+    transform: translateX(0);
+  }
+  .hide {
+    transform: translateX(-250px);
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 5%;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .sidebar.hide {
+      transform: translateX(-200px);
+    }
+  }
+  .card{
+   height:150px;
+   width: 330px;
+   padding: 2%;
+   margin: 5%;
+   transition: .5s ease-in-out;
+  }
+  .card:hover{
+   transform: scale(1.2);
+}
+
+  #box1{
+   background-color: orange;
+   color: rgb(29, 131, 88);
+  }
+  #box2{
+   background-color: rgb(160, 199, 218);
+   color: black;
+  }
+  #box3{
+   background-color: red;
+   color: black;
+  }
+ #dashboard{
+   min-height:100vh ;
+   background-color: #eff4ff;
+   border-top-left-radius: 35px;
+   border-bottom-left-radius: 35px;
+
+ }
+ #inptaa{
+   width: 350px;
+   border-radius: 0%;
+   border-bottom: 3px solid black;
+   padding: 3%;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   box-shadow: none;
+ }
+ #divaa{
+   margin-left: 3%;
+   margin-top: 5%;
+ }
+ #docimg{
+  height: 100px;
+  width: 100%;  
+  padding: 10%;
+ }
+ #docimg img{
+  width: 90%;
+  height: 300px;
+  border-radius: 10%;
+  border: 3px solid goldenrod;
+  margin-bottom: 2%;
+ }
+.inpad{
+margin-top: 2%;
+border-bottom: 2px solid black;
+
+}
+#bodyadddoc{
+  min-height:100vh ;
+   background-color: #f0f0f0;
+   border-top-left-radius: 35px;
+   border-bottom-left-radius: 35px;
+
+}
+ 
+.poster{
+  min-height: 30vh;
+  border: 1px solid black;
+  width: 100%;
+  margin-left:2%;
+  margin-top: 35%;
+  border: 5px groove goldenrod;
+  padding: 2%;
+  box-shadow: 0px 5px 5px 5px gray ;
+  margin-bottom: 10%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.poster img{
+  width:190px;
+  border-radius: 50%;
+  height: 200px;
+  margin-top: -100px;
+  border-bottom: none;
+  border-top: 5px solid goldenrod;
+  transition: .5s;
+}
+.poster img:hover{
+  transform: scale(1.2);
+}
+#doctorbody{
+  background-color: #f0f0f0;
+  
+}
